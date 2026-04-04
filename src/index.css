@@ -1,0 +1,46 @@
+@import "tailwindcss";  
+@plugin "daisyui";
+
+.font-logo{
+font-family: "Space Grotesk", sans-serif !important;
+}
+
+@keyframes bounceInside {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.bounce-inside {
+  animation: bounceInside 3s infinite;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeUp {
+  animation: fadeUp 0.6s ease forwards;
+}
+
+/* Masquer les animations AOS sur mobile */
+@media (max-width: 768px) {
+  [data-aos] {
+    opacity: 1 !important;      /* visible dès le départ */
+    transform: none !important; /* pas de translation/scale */
+  }
+}
+
+.page{
+  overflow-x: hidden;
+}
