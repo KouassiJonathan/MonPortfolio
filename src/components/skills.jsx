@@ -11,7 +11,7 @@ function Skills() {
                 </div>
                 <div className='grid md:grid-cols-3 grid-cols-1 pb-20 gap-15 px-0  '>
                     {/*colonne 1*/}
-                    <div   data-aos="fade-up" className="bg-gray-900/30 rounded-xl border flex-col gap-5 flex border-gray-700 md:h-85  md:w-88 h-90 to-gray-800 p-5 ">
+                    <div   data-aos="fade-up" className="bg-gray-900/30 rounded-xl border flex-col gap-5 flex border-gray-700 md:h-90  md:w-88 h-90 to-gray-800 p-5 ">
                         {/*header*/}
                         <h3 className='bg-linear-to-r from-teal-300 to-teal-100 bg-clip-text text-transparent text-[17px] font-bold '>Frontend</h3>
                         {/*skills 1*/}
@@ -74,7 +74,7 @@ function Skills() {
                         
                     </div>
                     {/*colonne 2*/}
-                    <div  data-aos="fade-up"  className="bg-gray-900/30 rounded-xl border flex-col gap-5 flex border-gray-700 md:h-85  md:w-88 h-90 to-gray-800 p-5 ">
+                    <div  data-aos="fade-up"  className="bg-gray-900/30 rounded-xl border flex-col gap-5 flex border-gray-700 md:h-90  md:w-88 h-90 to-gray-800 p-5 ">
                         {/*header*/}
                         <h3 className='bg-linear-to-r from-teal-300 to-teal-100 bg-clip-text text-transparent text-[17px] font-bold '>Backend</h3>
                         {/*skills 1*/}
@@ -137,7 +137,7 @@ function Skills() {
                         
                     </div>
                     {/*colonne 3*/}
-                    <div   data-aos="fade-up" className="bg-gray-900/30 rounded-xl border flex-col gap-5 flex border-gray-700 md:h-85  md:w-88 h-90 to-gray-800 p-5 ">
+                    <div   data-aos="fade-up" className="bg-gray-900/30 rounded-xl border flex-col gap-5 flex border-gray-700 md:h-90  md:w-88 h-90 to-gray-800 p-5 ">
                         {/*header*/}
                         <h3 className='bg-linear-to-r from-teal-300 to-teal-100 bg-clip-text text-transparent text-[17px] font-bold '>Frontend</h3>
                         {/*skills 1*/}
