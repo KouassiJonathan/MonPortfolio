@@ -3,7 +3,7 @@ import React from 'react'
 function Blog() {
     return (
         <>
-            <div className='md:px-27 px-8 bg-gray-950/50 md:py-20 py-6 md:pt-26 '>
+            <div id='Blog' className='md:px-27 px-8 bg-gray-950/50 md:py-20 py-6 md:pt-26 '>
                 {/*text*/}
                 <div className='mb-10'>
                     <h3 data-aos="fade-up" className='bg-linear-to-r from-teal-300 to-teal-100 bg-clip-text text-transparent text-[15px]  uppercase '>Blog</h3>

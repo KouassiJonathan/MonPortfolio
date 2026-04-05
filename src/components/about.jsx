@@ -11,7 +11,7 @@ import "aos/dist/aos.css";
   }, []);
         return (
             <> {/*text*/}
-                <div className='md:px-27 px-8 bg-gray-950/80 md:py-6 py-6 md:pt-36'>
+                <div id="About" className='md:px-27 px-8 bg-gray-950/80 md:py-6 py-6 md:pt-36'>
                     <h3 className='bg-linear-to-r from-teal-300 to-teal-100 bg-clip-text text-transparent text-[19px]  '>À propos</h3>
                     <h2 data-aos="fade-up" className=' text-4xl mt-1 font-bold'>Qui suis-je ?</h2>
                     <p data-aos="fade-up" className='text-gray-500 md:text-[17px] text-xl md:w-150 mt-5 '>Développeur fullstack , je suis spécialisé dans la création d'applications

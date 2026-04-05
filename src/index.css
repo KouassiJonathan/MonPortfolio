@@ -44,3 +44,7 @@ font-family: "Space Grotesk", sans-serif !important;
 .page{
   overflow-x: hidden;
 }
+
+html {
+  scroll-behavior: smooth;
+}

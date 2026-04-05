@@ -23,12 +23,12 @@ function Navbar() {
                     {/*menu ecran mobile*/}
                     <input type="checkbox" name="burger" id="burger" className='peer hidden' />
                     <div className="md:hidden peer-checked:flex hidden flex-col ps-5 gap-2 text-[18px] text-white/50 ">
-                        <a className='hover:text-teal-400 transition duration-200'>Accueil</a>
-                        <a className='hover:text-teal-400 transition duration-200'>A propos</a>
-                        <a className='hover:text-teal-400 transition duration-200'>Projet</a>
-                        <a className='hover:text-teal-400 transition duration-200'>Competence</a>
-                        <a className='hover:text-teal-400 transition duration-200'>Blog</a>
-                        <a className='hover:text-teal-400 transition duration-200'>Contact</a>
+                        <a href='#Hero' className='hover:text-teal-400 transition duration-200'>Accueil</a>
+                        <a href='#About' className='hover:text-teal-400 transition duration-200'>A propos</a>
+                        <a href='#Project' className='hover:text-teal-400 transition duration-200'>Projet</a>
+                        <a href='#Skills' className='hover:text-teal-400 transition duration-200'>Competence</a>
+                        <a href='#Blog' className='hover:text-teal-400 transition duration-200'>Blog</a>
+                        <a href='#Contact' className='hover:text-teal-400 transition duration-200'>Contact</a>
                     </div>
                 </div>
 
@@ -39,12 +39,12 @@ function Navbar() {
             {/* menu ecran large*/}
             <div className="flex-none hidden md:flex">
                 <ul className=" flex gap-5 menu-horizontal px-1 text-gray-500 text-[19px]">
-                    <li className='hover:text-teal-400 transition duration-200'><a>Accueil</a></li>
-                    <li className='hover:text-teal-400 transition duration-200'><a>A propos</a></li>
-                    <li className='hover:text-teal-400 transition duration-200'><a>Projet</a></li>
-                    <li className='hover:text-teal-400 transition duration-200'><a>Competence</a></li>
-                    <li className='hover:text-teal-400 transition duration-200'><a>Blog</a></li>
-                    <li className='hover:text-teal-400 transition duration-200'><a>Contact</a></li>
+                   <a href='#Hero' className='hover:text-teal-400 transition duration-200'>Accueil</a>
+                        <a href='#About' className='hover:text-teal-400 transition duration-200'>A propos</a>
+                        <a href='#Project' className='hover:text-teal-400 transition duration-200'>Projet</a>
+                        <a href='#Skills' className='hover:text-teal-400 transition duration-200'>Competence</a>
+                        <a href='#Blog' className='hover:text-teal-400 transition duration-200'>Blog</a>
+                        <a href='#Contact' className='hover:text-teal-400 transition duration-200'>Contact</a>
                 </ul>
             </div>
 

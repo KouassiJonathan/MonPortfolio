@@ -5,7 +5,7 @@ function Hero() {
 
     <>
       {/*couleur de font + conteneur*/}
-      <div className="md:px-27 px-8 bg-gray-950/80 md:py-6 py-6 ">
+      < div id='Hero' className="md:px-27 px-8 bg-gray-950/80 md:py-6 py-6 ">
 
         <div className="grid md:grid-cols-2 grid-cols-1">
 

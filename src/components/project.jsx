@@ -4,7 +4,7 @@ function Project() {
     return (
         <>
 
-            <div className='md:px-27 px-8 bg-gray-950/50 md:py-20 py-6 md:pt-26 '>
+            <div id='Project' className='md:px-27 px-8 bg-gray-950/50 md:py-20 py-6 md:pt-26 '>
                 {/*text*/}
                 <div data-aos="fade-up">
                     <h3 className='bg-linear-to-r from-teal-300 to-teal-100 bg-clip-text text-transparent text-[15px]  uppercase '>Porfolio</h3>
@@ -13,7 +13,7 @@ function Project() {
                 {/*carte sur deux colonne*/}
                 <div className='grid md:grid-cols-2 grid-cols-1 mt-10 gap-5 '>
                     {/*colonne1 carte 1*/}
-                    <div data-aos="fade-up" className="bg-gray-950/50 rounded-xl border flex-col gap-5 flex border-gray-700 md:h-50 h-70 to-gray-800 p-5 hover:border-teal-500/30 duration-200 ">
+                    <div data-aos="fade-up" className="bg-gray-950/50 rounded-xl border flex-col gap-5 flex border-gray-700 md:h-50 h-78 to-gray-800 p-5 hover:border-teal-500/30 duration-200 ">
                         {/*header*/}
                         <div className='flex justify-between'>
                             <h5 className='text-white/85 font-bold text-xl'>Porfolio Creative UI/UX Designer</h5>
@@ -32,20 +32,14 @@ function Project() {
                         <div className='text-center flex flex-col md:flex-row gap-2 md:items-center'>
                             <div className='flex'>
                                 <h6 className='text-teal-500 rounded-full border border-teal-900/30 py-2 px-3  font-bold text-[13px]'>React</h6>
-                                <h6 className='text-teal-500 rounded-full border border-teal-900/30 py-2 px-3 font-bold text-[13px]'>Node.js</h6>
-                                <h6 className='text-teal-500 rounded-full border border-teal-900/30 py-2 px-3 font-bold text-[13px]'>MongoDB</h6>
-                            </div>
-
-                            <div className='flex'>
-                                <h6 className='text-teal-500 rounded-full border border-teal-900/30 py-2 px-3 font-bold text-[13px]'>Stripe</h6>
-                                <h6 className='text-teal-500 rounded-full border border-teal-900/30 py-2 px-3 font-bold text-[13px]'>Tailwind CSS</h6>
+                                    <h6 className='text-teal-500 rounded-full border border-teal-900/30 py-2 px-3 font-bold text-[13px]'>Tailwind CSS</h6>
                             </div>
 
                         </div>
                     </div>
 
                     {/*colonne1 carte 2*/}
-                    <div data-aos="fade-up" className="bg-gray-950/50 rounded-xl border flex-col gap-5 flex border-gray-700 md:h-50 h-70 to-gray-800 p-5 hover:border-teal-500/30 duration-200 transition">
+                    <div data-aos="fade-up" className="bg-gray-950/50 rounded-xl border flex-col gap-5 flex border-gray-700 md:h-50 h-72 to-gray-800 p-5 hover:border-teal-500/30 duration-200 transition">
                         {/*header*/}
                         <div className='flex justify-between'>
                             <h5 className='text-white/85 font-bold text-xl'>Site vitrine pour Restaurant</h5>
@@ -63,22 +57,14 @@ function Project() {
                         {/*footer*/}
                         <div className='text-center flex flex-col md:flex-row gap-2 md:items-center'>
                             <div className='flex'>
-                                <h6 className='text-teal-500 rounded-full border border-teal-900/30 py-2 px-3  font-bold text-[13px]'>React</h6>
-                                <h6 className='text-teal-500 rounded-full border border-teal-900/30 py-2 px-3 font-bold text-[13px]'>Node.js</h6>
-                                <h6 className='text-teal-500 rounded-full border border-teal-900/30 py-2 px-3 font-bold text-[13px]'>MongoDB</h6>
-                            </div>
-
-                            <div className='flex'>
-                                <h6 className='text-teal-500 rounded-full border border-teal-900/30 py-2 px-3 font-bold text-[13px]'>Stripe</h6>
                                 <h6 className='text-teal-500 rounded-full border border-teal-900/30 py-2 px-3 font-bold text-[13px]'>Tailwind CSS</h6>
                             </div>
-
                         </div>
                     </div>
 
 
                     {/*colonne2 carte 3*/}
-                    <div data-aos="fade-up" className="bg-gray-950/50 rounded-xl border flex-col gap-5 flex border-gray-700 md:h-55 h-70 to-gray-800 p-5 hover:border-teal-500/30 duration-200 transition">
+                    <div data-aos="fade-up" className="bg-gray-950/50 rounded-xl border flex-col gap-5 flex border-gray-700 md:h-55 h-90 to-gray-800 p-5 hover:border-teal-500/30 duration-200 transition">
                         {/*header*/}
                         <div className='flex justify-between'>
                             <h5 className='text-white/85 font-bold text-xl'>Le site Grilli Omega</h5>
@@ -111,7 +97,7 @@ function Project() {
                     </div>
 
                     {/*colonne2 carte 4*/}
-                    <div data-aos="fade-up" className="bg-gray-950/50 rounded-xl border flex-col gap-5 flex border-gray-700 md:h-55 h-70 to-gray-800 p-5 hover:border-teal-500/30 duration-200 transition">
+                    <div data-aos="fade-up" className="bg-gray-950/50 rounded-xl border flex-col gap-5 flex border-gray-700 md:h-55 h-97 to-gray-800 p-5 hover:border-teal-500/30 duration-200 transition">
                         {/*header*/}
                         <div className='flex justify-between'>
                             <h5 className='text-white/85 font-bold text-xl'>Le site Abidjan Bakes Magic</h5>

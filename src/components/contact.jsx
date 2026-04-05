@@ -3,7 +3,7 @@ import React from 'react'
 function Contact() {
     return (
         <>
-            <div className='md:px-27 p-5 bg-gray-950/80 md:py-6 py-2 md:pt-26 page'>
+            <div id='Contact' className='md:px-27 p-5 bg-gray-950/80 md:py-6 py-2 md:pt-26 page'>
                 {/*text*/}
                 <div>
                     <h3 className='bg-linear-to-r from-teal-300 to-teal-100 bg-clip-text text-transparent text-[15px]  uppercase '>Contact</h3>
