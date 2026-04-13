@@ -9,10 +9,21 @@ import Project from "./components/project"
 import Skills from "./components/skills"
 import Accueil from "./pages/accueil"
 import{BrowserRouter,Routes,Route} from "react-router-dom"
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function App() {
-  
+   useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: true,
+      easing: "ease-in-out",
+      offset: 80,
+    });
+
+    AOS.refresh();
+  }, []);
   return (
     <>
       
