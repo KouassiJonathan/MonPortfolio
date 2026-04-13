@@ -37,7 +37,7 @@ function Hero() {
             {/*icon*/}
             <div  data-aos="fade">
               <a href="https://github.com/KouassiJonathan" className='me-5'><i className="bi bi-github text-white/50 text-[17px]  hover:text-teal-500 duration-200 transition"></i></a>
-              <a href="#" className='me-5'><i className="bi bi-linkedin text-[17px] text-white/50 hover:text-teal-500 duration-200 transition"></i></a>
+              <a href="https://www.linkedin.com/in/timothée-kouassi-a905b72aa " className='me-5'><i className="bi bi-linkedin text-[17px] text-white/50 hover:text-teal-500 duration-200 transition"></i></a>
               <a href="#" className='me-5'><i className="bi bi-twitter-x text-[17px] text-white/50 hover:text-teal-500 duration-200 transition"></i></a>
             </div>
           </div>

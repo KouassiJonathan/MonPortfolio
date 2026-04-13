@@ -26,7 +26,7 @@ function Contact() {
                         {/*icon */}
                         <div flex gap-5  >
                             <a href="https://github.com/KouassiJonathan" className='me-5 bg-gray-800/50 p-3 rounded-xl'><i class="bi bi-github text-white/50 text-[17px]  hover:text-teal-500 duration-200 transition"></i></a>
-                            <a href="#" className='me-5 bg-gray-800/40 p-3 rounded-xl'><i class="bi bi-linkedin text-[17px] text-2xl text-white/50 hover:text-teal-500 duration-200 transition"></i></a>
+                            <a href="https://www.linkedin.com/in/timothée-kouassi-a905b72aa " className='me-5 bg-gray-800/40 p-3 rounded-xl'><i class="bi bi-linkedin text-[17px] text-2xl text-white/50 hover:text-teal-500 duration-200 transition"></i></a>
                             <a href="#" className='me-5 bg-gray-800/40 p-3 rounded-xl '><i class="bi bi-twitter-x text-[17px]  text-white/50 hover:text-teal-500 duration-200 transition"></i></a>
                         </div>
                         <div className='bg-gray-800/40 md:w-135 md:h-18 w-70 5-90 rounded-xl mt-5 md:p-3 p-5 mb-5'>
