@@ -12,6 +12,7 @@ import{BrowserRouter,Routes,Route} from "react-router-dom"
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import PagesNotFound from "./components/PagesNotFound"
 
 function App() {
    useEffect(() => {
@@ -36,6 +37,7 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Project" element={<Project />} />
           <Route path="/Skills" element={<Skills />} />
+            <Route path="/*" element={<PagesNotFound />} />
         </Routes>
         <Footer />
       </BrowserRouter>
