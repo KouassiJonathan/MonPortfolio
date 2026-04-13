@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
                     <h3 className='bg-linear-to-r from-teal-300 to-teal-100 bg-clip-text text-transparent text-2xl  '>À propos</h3>
                     <h2 data-aos="fade-up" className=' text-4xl mt-1 font-bold'>Qui suis-je ?</h2>
                     <p data-aos="fade-up" className='text-gray-500 md:text-xl text-xl md:w-150 mt-5 '>Développeur fullstack , je suis spécialisé dans la création d'applications
-                        web modernes avec React, Node.jset les technologies cloud. Passionné par le clean code et l'expérience utilisateur, je m'efforce de livrer
+                        web modernes avec React, Node.js et les technologies cloud. Passionné par le clean code et l'expérience utilisateur, je m'efforce de livrer
                         des solutions performantes et
                         maintenables
                     </p>
