@@ -4,22 +4,22 @@ function Project() {
     return (
         <>
 
-            <div id='Project' className='md:px-27 px-8 bg-gray-950/50 md:py-20 py-6 md:pt-26 '>
+            <div id='Project' className='md:px-27 px-8 bg-gray-950/50 md:py-20 py-6 md:pt-6 '>
                 {/*text*/}
-                <div data-aos="fade-up">
+                <div data-aos="fade-right">
                     <h3 className='bg-linear-to-r from-teal-300 to-teal-100 bg-clip-text text-transparent text-[15px]  uppercase '>Porfolio</h3>
                     <h2 className='text-4xl mt-1 font-bold'>Projets récents</h2>
                 </div>
                 {/*carte sur deux colonne*/}
                 <div className='grid md:grid-cols-2 grid-cols-1 mt-10 gap-5 '>
                     {/*colonne1 carte 1*/}
-                    <div data-aos="fade-up" className="bg-gray-950/50 rounded-xl border flex-col gap-5 flex border-gray-700 md:h-50 h-78 to-gray-800 p-5 hover:border-teal-500/30 duration-200 ">
+                    <div data-aos="fade-up" className="bg-gray-950/50 rounded-xl border flex-col gap-5 flex border-gray-700 md:h-50 h-full to-gray-800 p-5 hover:border-teal-500/30 duration-200 ">
                         {/*header*/}
                         <div className='flex justify-between'>
-                            <h5 className='text-white/85 font-bold text-xl'>Porfolio Creative UI/UX Designer</h5>
+                            <h5 className='text-white/85 font-bold text-xl me-3'>Porfolio Creative UI/UX Designer</h5>
                             {/*icon*/}
-                            <div>
-                                <a href="https://github.com/KouassiJonathan/porfolio-arial" className='me-5'><i class="bi bi-github text-white/50 text-[17px]  hover:text-teal-500 duration-200 transition"></i></a>
+                            <div className='flex gap-5'>
+                                <a href="https://github.com/KouassiJonathan/porfolio-arial" className=''><i class="bi bi-github text-white/50 text-[17px]  hover:text-teal-500 duration-200 transition"></i></a>
                                 <a href="https://porfolio-arial.vercel.app/"><i class="bi bi-box-arrow-up-right text-white/50 text-[17px]  hover:text-teal-500 duration-200 transition"></i></a>
                             </div>
                         </div>
@@ -44,8 +44,8 @@ function Project() {
                         <div className='flex justify-between'>
                             <h5 className='text-white/85 font-bold text-xl'>Site vitrine pour Restaurant</h5>
                             {/*icon*/}
-                            <div>
-                                <a href="https://github.com/KouassiJonathan/Restaurant" className='me-5'><i class="bi bi-github text-white/50 text-[17px]  hover:text-teal-500 duration-200 transition"></i></a>
+                            <div className='flex gap-3'>
+                                <a href="https://github.com/KouassiJonathan/Restaurant" className='me-1'><i class="bi bi-github text-white/50 text-[17px]  hover:text-teal-500 duration-200 transition"></i></a>
                                 <a href="https://restaurant-six-ivory.vercel.app/ "><i class="bi bi-box-arrow-up-right text-white/50 text-[17px]  hover:text-teal-500 duration-200 transition"></i></a>
                             </div>
                         </div>
@@ -69,8 +69,8 @@ function Project() {
                         <div className='flex justify-between'>
                             <h5 className='text-white/85 font-bold text-xl'>Le site Grilli Omega</h5>
                             {/*icon*/}
-                            <div>
-                                <a href="https://github.com/KouassiJonathan/Grilli" className='me-5'><i class="bi bi-github text-white/50 text-[17px]  hover:text-teal-500 duration-200 transition"></i></a>
+                            <div className='flex gap-3'>    
+                                <a href="https://github.com/KouassiJonathan/Grilli" className='me-1'><i class="bi bi-github text-white/50 text-[17px]  hover:text-teal-500 duration-200 transition"></i></a>
                                 <a href="https://grilli-omega.vercel.app/"><i class="bi bi-box-arrow-up-right text-white/50 text-[17px]  hover:text-teal-500 duration-200 transition"></i></a>
                             </div>
                         </div>
@@ -102,8 +102,8 @@ function Project() {
                         <div className='flex justify-between'>
                             <h5 className='text-white/85 font-bold text-xl'>Le site Abidjan Bakes Magic</h5>
                             {/*icon*/}
-                            <div>
-                                <a href="https://github.com/KouassiJonathan/abidjan-bakes-magic" className='me-5'><i class="bi bi-github text-white/50 text-[17px]  hover:text-teal-500 duration-200 transition"></i></a>
+                            <div className='flex gap-3'>
+                                <a href="https://github.com/KouassiJonathan/abidjan-bakes-magic" className='me-1'><i class="bi bi-github text-white/50 text-[17px]  hover:text-teal-500 duration-200 transition"></i></a>
                                 <a href="https://preview--abidjan-bakes-magic.lovable.app/"><i class="bi bi-box-arrow-up-right text-white/50 text-[17px]  hover:text-teal-500 duration-200 transition"></i></a>
                             </div>
                         </div>

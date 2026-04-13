@@ -11,10 +11,10 @@ import "aos/dist/aos.css";
   }, []);
         return (
             <> {/*text*/}
-                <div id="About" className='md:px-27 px-8 bg-gray-950/80 md:py-6 py-6 md:pt-36'>
-                    <h3 className='bg-linear-to-r from-teal-300 to-teal-100 bg-clip-text text-transparent text-[19px]  '>À propos</h3>
+                <div id="About" className='md:px-27 px-8 bg-gray-950/80 md:py-6 py-6 md:pt-6'>
+                    <h3 className='bg-linear-to-r from-teal-300 to-teal-100 bg-clip-text text-transparent text-2xl  '>À propos</h3>
                     <h2 data-aos="fade-up" className=' text-4xl mt-1 font-bold'>Qui suis-je ?</h2>
-                    <p data-aos="fade-up" className='text-gray-500 md:text-[17px] text-xl md:w-150 mt-5 '>Développeur fullstack , je suis spécialisé dans la création d'applications
+                    <p data-aos="fade-up" className='text-gray-500 md:text-xl text-xl md:w-150 mt-5 '>Développeur fullstack , je suis spécialisé dans la création d'applications
                         web modernes avec React, Node.jset les technologies cloud. Passionné par le clean code et l'expérience utilisateur, je m'efforce de livrer
                         des solutions performantes et
                         maintenables
@@ -60,7 +60,7 @@ import "aos/dist/aos.css";
                                 <p className='text-gray-600 mt-1 font-bold text-[15px]'>StartupLab</p>
                             </div>
                         </div>
-                        {/*item 3*/}
+                        {/*item 4*/}
                         <div data-aos="fade-left" className=' flex gap-8'>
                             {/*logo*/}
                             <div className=' '>

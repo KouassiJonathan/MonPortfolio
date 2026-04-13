@@ -3,11 +3,11 @@ import React from 'react'
 function Skills() {
     return (
         <>
-            <div id='Skills' className='md:px-27 p-5 bg-gray-950/80 md:py-6 py-10 md:pt-26 '>
+            <div id='Skills' className='md:px-27 p-5 bg-gray-950/80 md:py-6 py-10 md:pt-6 '>
                 {/*text*/}
-                <div>
-                    <h3 data-aos="fade-up" className='bg-linear-to-r from-teal-300 to-teal-100 bg-clip-text text-transparent text-[15px]  uppercase '>Compétences</h3>
-                    <h2  data-aos="fade-up" className='text-4xl mt-1 font-bold mb-10'>Stack technique</h2>
+                <div data-aos="fade-right"> 
+                    <h3  className='bg-linear-to-r from-teal-300 to-teal-100 bg-clip-text text-transparent text-[15px]  uppercase '>Compétences</h3>
+                    <h2   className='text-4xl mt-1 font-bold mb-10'>Stack technique</h2>
                 </div>
                 <div className='grid md:grid-cols-3 grid-cols-1 pb-20 gap-15 px-0  '>
                     {/*colonne 1*/}
