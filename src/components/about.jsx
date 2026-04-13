@@ -1,14 +1,8 @@
-  import React, { useEffect } from "react";
-import AOS from "aos";
+
 import "aos/dist/aos.css";
 
     function About() {
-       useEffect(() => {
-    // Initialiser AOS uniquement pour desktop
-    if (window.innerWidth > 768) {
-      AOS.init({ duration: 600, once: true });
-    }
-  }, []);
+     
         return (
             <> {/*text*/}
                 <div id="About" className='md:px-27 px-8 bg-gray-950/80 md:py-6 py-6 md:pt-6'>

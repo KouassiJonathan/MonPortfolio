@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 function Navbar() {
     return (
 
-        <div className="navbar shadow-sm md:px-21 px-3   bg-gray-950/80 border-b border-gray-800 ">
+        <div className="navbar shadow-sm md:px-21 px-3 bg-gray-950/80 border-b border-gray-800 ">
 
 
             <div className="flex-1">
