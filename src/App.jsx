@@ -1,18 +1,18 @@
 
-import About from "./components/about"
-import Blog from "./components/blog"
-import Contact from "./components/contact"
-import Footer from "./components/footer"
-import Hero from "./components/hero"
+import About from "./pages/about"
+import Blog from "./pages/blog"
+import Contact from "./pages/contact"
+import Footer from "./pages/footer"
+import Hero from "./pages/hero"
 import Navbar from "./components/navbar"
-import Project from "./components/project"
-import Skills from "./components/skills"
-import Accueil from "./pages/accueil"
+import Project from "./pages/project"
+import Skills from "./pages/skills"
+
 import{BrowserRouter,Routes,Route} from "react-router-dom"
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import PagesNotFound from "./components/PagesNotFound"
+import PagesNotFound from "./pages/PagesNotFound"
 
 function App() {
    useEffect(() => {
